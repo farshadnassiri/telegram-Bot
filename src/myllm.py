@@ -7,6 +7,6 @@ def chat_wit_llm(prompt):
         model="gemini-2.5-flash", contents=prompt
     )
 
-    print(response.text)
+    return response.text
 
 
